@@ -1,0 +1,240 @@
+.mainpage {
+    background-color: beige;
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+}
+
+/* header */
+
+.topnav, .dropdown .dropbtn {
+    background: rgb(247, 202, 228); }
+  
+  .topnav a, .dropdown .dropbtn {
+    text-align: center;
+    float: right;
+    font-size: 17px;
+    text-decoration: none;
+    border: none;
+    padding: 15px 15px;
+    color: black;
+    margin-top: 15px;
+    font-weight: bold;
+    font-family: serif;
+    border-radius: 6px;
+    position: relative; }
+  
+  .topnav a:hover, .dropdown:hover .dropbtn {
+    background-color: black;
+    color: white;
+    font-size: 19px; }
+  
+  .dropdown {
+    float: right;
+    overflow: hidden; }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(219, 74, 159);
+    min-width: 160px;
+    z-index: 1; }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    display: block;
+    text-align: left; }
+  
+  .dropdown-content a:hover {
+    background-color: black; }
+  
+  .dropdown:hover .dropdown-content {
+    display: block; }
+  
+  .topnav a.home {
+    background-color: red;
+    color: white; }
+    
+  .topnav .image {
+    border: black 5px ridge;
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 1px;
+    margin-bottom: 7px;
+    padding: auto;
+    transform: rotate(10deg);
+    transform-origin: 20% 40%;
+    -ms-transform: rotate(45deg);
+    -ms-transform-origin:40% 60%;
+    animation: mymove 5s infinite; }
+  
+  @keyframes mymove {
+    50% {transform-origin:0 0 0;} }
+/* content1 */
+.container img {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    height: 100%; }
+  
+  .container {
+    overflow: hidden;
+    height: 560px;
+    position: relative;
+    text-align: center;
+    color: black; }
+  
+  .heart-beat {
+    position: absolute;
+    top: 200px;
+    left: 80px;
+    font-size: 70px; }
+  
+  .heading-2 {
+    position: absolute;
+    top: 300px;
+    left: 80px;
+    font-size: 30px;
+    text-align: left;
+    font-weight: 200; }
+  
+  .beat {  
+    color: red;
+    transition: font-size 2s; }
+  
+  .beat:hover {
+    font-size: 100px;
+    color: rgb(220, 0, 0); }
+
+/* content2 */
+
+#contacts {
+    font-size: 17px;
+    color: rgb(128, 0, 128); }
+  
+  #diff-dipartments {
+    display: flex;
+    width: 100%; }
+  
+  .row-container {
+    display: flex;
+    width: 500px;
+    height: 100px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 1px;
+    text-align: left;
+    font-size: 14px;
+    font-family: calibri;
+    opacity: 0.8; }
+  
+  .logo {
+    margin: 10px;
+    margin-top: 20px;
+    position: relative;
+    background-color: rgb(250, 232, 246);
+    border-radius: 8px; }
+  
+  .text {
+    margin: 10px;
+    line-height: 1.4; }
+  
+  .text span {
+    font-weight: bold;
+    font-size: 16px; }
+
+    /* footer */
+
+    .footer {
+        background-color: blueviolet;
+        display: flex;
+        flex-direction: row;
+    }
+    .footer-image  {
+        flex-grow: 1;
+    }
+    .footer2 {
+        flex-grow: 1;  
+           
+    }
+    .footer-image, .img {
+  object-fit: cover;
+  max-width: 100%;
+  height: 100%;
+  object-position: 100%;
+  background-color: rgb(19, 9, 19);
+  
+}
+
+    #footer-appoinment1 {
+        background-color: rgb(170, 50, 66);
+        color: white;
+        padding: 5px;
+        max-width: 100%;
+        height: 98%;
+    }
+    
+    #info-heading {
+        font-size: 20px;
+        font-family: sans-serif;
+        
+     }
+    
+    .info-1, .info-2 {
+            display: flex;
+            margin-top: 6px;
+            padding: 12px;
+            font-size: 15px;
+            font-family: sans-serif;
+     }
+    
+     input[type=text],
+          input[type=tel],
+          input[type=email],
+          input[type=Date] {
+            padding: 5px;
+            width: 200px;
+            border: 1px solid white;
+            border-radius: 4px;
+            margin-top: 5px;
+            margin-bottom: 10px; }
+    
+     textarea[type=text] {
+                width: 300px;
+                
+                padding: 5px;
+                border-radius: 4px;
+                margin-top: 5px;
+                margin-bottom: 16px;
+                 }
+    
+    input[type=submit] {
+                    background-color: rgb(255, 255, 143);
+                    color: black;
+                    padding: 8px 10px;
+                    border: none;
+                    border-radius: 4px;
+                    font-size: 15px;
+                    font-weight: bold;
+                    
+                 }
+                  
+    input[type=submit]:hover {
+                    background-color: green;
+                    color: white; }
+    
+    .box-4 {
+             margin-left: 60px; }
+             
+    .box-2 {
+             margin-left: 20px;
+             margin-right: 10px; }
+    
+    .box-2 input[type=Date], .box-3 input[type=Date] {
+                width: 200px; }
